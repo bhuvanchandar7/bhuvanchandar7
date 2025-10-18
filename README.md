@@ -96,9 +96,9 @@
 
 <div width="100%" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/HEAD/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/HEAD/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/HEAD/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/bhuvanchandar7/bhuvanchandar7/blob/output/pacman-contribution-graph-dark.svg?raw=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/bhuvanchandar7/bhuvanchandar7/blob/output/pacman-contribution-graph.svg?raw=true">
+    <img alt="pacman contribution graph" src="https://github.com/bhuvanchandar7/bhuvanchandar7/blob/output/pacman-contribution-graph.svg?raw=true">
   </picture>
 </div>
 
