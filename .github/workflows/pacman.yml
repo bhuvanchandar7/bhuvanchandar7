@@ -1,9 +1,6 @@
 name: Generate pacman animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "0 */12 * * *"
-
   workflow_dispatch:
 
 jobs:
@@ -11,31 +8,19 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: main
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Generate Pacman contribution graph
+      - name: Generate Pacman Contribution Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: bhuvanchandar7
 
-      - name: Create output branch if it doesn't exist
-        run: |
-          git checkout -b output || git checkout output
-
-      - name: Copy generated files to current directory
-        run: |
-          cp -f dist/* . || true
-          
-      - name: Commit and push files to output branch
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git diff --staged --quiet || git commit -m "Update Pacman contribution graph [skip ci]"
-          git push origin output
+      - name: Push to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
