@@ -62,13 +62,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bhuvanchandar7&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-<div width="100%" align="center">
+<div align="center" width="100%">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph-dark.svg?sanitize=true&v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg?sanitize=true&v=1" />
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg?sanitize=true&v=1" width="100%" />
   </picture>
 </div>
+
 
 <div>
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
