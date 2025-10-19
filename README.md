@@ -63,7 +63,7 @@
 </div>
 
 <div width="100%" align="center">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg" style="max-width: 100%; height: auto;" title="Pacman Contribution Graph">
+  <img alt="pacman contribution graph" src="https://bhuvanchandar7.github.io/bhuvanchandar7/pacman-contribution-graph.svg" style="max-width: 100%; height: auto;" title="Pacman Contribution Graph">
 </div>
 
 <div>
