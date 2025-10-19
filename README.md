@@ -63,11 +63,7 @@
 </div>
 
 <div width="100%" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg">
-  </picture>
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg" style="max-width: 100%; height: auto;" title="Pacman Contribution Graph">
 </div>
 
 <div>
