@@ -64,11 +64,16 @@
 
 <div align="center" width="100%">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph-dark.svg?sanitize=true&v=1" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg?sanitize=true&v=1" />
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg?sanitize=true&v=1" width="100%" />
+    <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
+            srcset="https://cdn.jsdelivr.net/gh/bhuvanchandar7/bhuvanchandar7@output/pacman-contribution-graph-dark.svg?v=3" />
+    <source type="image/svg+xml" media="(prefers-color-scheme: light)"
+            srcset="https://cdn.jsdelivr.net/gh/bhuvanchandar7/bhuvanchandar7@output/pacman-contribution-graph.svg?v=3" />
+    <img alt="pacman contribution graph"
+         src="https://cdn.jsdelivr.net/gh/bhuvanchandar7/bhuvanchandar7@output/pacman-contribution-graph.svg?v=3"
+         width="100%" />
   </picture>
 </div>
+
 
 
 <div>
