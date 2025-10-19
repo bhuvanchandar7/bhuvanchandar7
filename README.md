@@ -65,16 +65,14 @@
 <div align="center" width="100%">
   <picture>
     <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-            srcset="https://cdn.jsdelivr.net/gh/bhuvanchandar7/bhuvanchandar7@output/pacman-contribution-graph-dark.svg?v=3" />
+            srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph-dark.svg?sanitize=true&v=3" />
     <source type="image/svg+xml" media="(prefers-color-scheme: light)"
-            srcset="https://cdn.jsdelivr.net/gh/bhuvanchandar7/bhuvanchandar7@output/pacman-contribution-graph.svg?v=3" />
+            srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg?sanitize=true&v=3" />
     <img alt="pacman contribution graph"
-         src="https://cdn.jsdelivr.net/gh/bhuvanchandar7/bhuvanchandar7@output/pacman-contribution-graph.svg?v=3"
+         src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg?sanitize=true&v=3"
          width="100%" />
   </picture>
 </div>
-
-
 
 <div>
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
