@@ -95,7 +95,11 @@
 ###
 
 <div width="100%" align="center">
-  <img src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg" alt="pacman contribution graph" style="max-width: 100%;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/bhuvanchandar7/bhuvanchandar7/output/pacman-contribution-graph.svg" style="max-width: 100%;">
+  </picture>
 </div>
 
 ###
